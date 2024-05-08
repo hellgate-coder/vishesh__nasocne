@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .logo-cont{
+    margin-left: 15px;
+    display: flex;
+    column-gap: 150px;
+  }
+.box-container{
+    padding-top: 25px;
+    display: flex;
+    flex-direction:row;
+    column-gap: 390px;
+}
+.rest-cont{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.bg-container{
+    margin: 0px;
+    padding: auto;
+    background-image: url('assets/bg.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.gogaga-logo{
+    font-size: 65px;
+    color: rgb(87, 166, 166);
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.span-element{
+    color: rgb(104, 165, 104);
+}
+.heading-container{
+    display: flex;
+    flex-direction:row;
+    column-gap:20px
+}
+.help-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border: 3px dashed black;
+    border-radius: 10px;
+    height: 95px;
+    width: 80px;
+}
+.heading-text2{
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.head-span{
+    font-size: 15px;
+    color: #2a6fde;
+
+}
+.heading-text{
+    color: #4b63bdf6;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.country-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border: 3px dashed black;
+    border-radius: 10px;
+    height: 95px;
+    width: 80px;
+}
+.flag-img{
+    height: 30px;
+}
+.user-logo{
+    margin-top: 18px;
+}
+.cab-container{
+    text-align: center;
+    height: 95px;
+    width: 190px;
+    border: 3px dashed black;
+    border-radius: 15px;
+}
+.us{
+    margin-top: 15px;
+}
+.h1{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.con{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.para{
+    font-size: 15px;
+}
+.member-cont{
+    height: 95px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    width: 25%;
+    background-color: #2a6fde;
+}
+
+.member-cont1{
+    border: 3px dashed black;
+    height: 92px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    width:30%;
+}
+.g{
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 25px;
+    height: 45px;
+    background-color: white;
+    width: 16%;
+}
+.g1{
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 25px;
+    height: 45px;
+    width: 16%;
+}
+.login-cont{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 29%;
+    border: 3px dashed black;
+}
+.main-cont{
+    margin-top: 40px;
+    text-align: center;
+}
+.main-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #021350f6;
+    font-size:60px;
+}
+.main-para{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: #021350f6;
+    font-size:40px;
+}
+.card-container{
+    background-color: #ffffff;
+    height: 10%;
+    width: 75%;
+    border-radius: 40px;
+    margin: auto;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:33%;
+}
+.a{
+    text-align: center;
+    display: flex;
+}
+.combo{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flight{
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    background-color:rgb(238, 235, 235);
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width:12%;
+    padding-top: 10px;
+    justify-content: space-around;
+
+}
+.hotel{
+    
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    background-color:#538be6;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width:12%;
+    padding-top: 10px;
+    justify-content: space-around;
+    
+}
+.card-para{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.desc-container{
+    height: 290px;
+    width: 85%;
+    background-color:#2a6fde;
+    border-radius: 20px;
+    position: relative;
+
+}
+.dest-container{
+    margin-top: 95px;
+    padding: 10px;
+    height: 75px;
+    width: 27%;
+    border: 2px white;
+    border-style: solid;
+    border-radius: 10px;
+}
+.dest-cont-para{
+    color: white;
+    font-size: 16px;
+}
+.dest-cont-head{
+    color: white;
+    font-size: larger;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.magnify-cont{
+    margin-top: 95px;
+    background-color: #ffffff;
+    width: 6%;
+    height: 85px;
+    text-align: center;
+    padding:10px;
+    border-radius: 15px;
+}
+.desc-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.star-rating{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+.star{
+    background-color: #ffffff;
+    width: 45px;
+    height: 25px;
+    border-radius: 8px;
+    padding-left:4px;
+}
+.dest-cont-star{
+    color:black;
+    font-size: 19px;
+}
+.input-cont{
+    margin-left: 30px;
+}
+.input{
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+}
+.footer-1{
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5%;
+}
+.K-review{
+    font-size: 80px;
+    color: #021350f6;
+}
+.k-font{
+    font-size: 35px;
+}
+.l{
+    display: flex;
+}
+.line{
+    margin-top: 2%;
+    width: 5px;
+    background-color: black;
+    height: 100px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+.vr-line{
+    margin-left: 15%;
+    width: 70%;
+}
+.last-footer{
+    margin-left: 12%;
+}
+.shield{
+    display: flex;
+    flex-direction: row;
+}
+.sp{
+    font-size:larger;
+    font-weight:600;
+}
+.f{
+    display: flex;
+    flex-direction: row;
+}
+.sp2{
+    font-size:22px;
+    font-weight:600;
+}
